@@ -18,6 +18,6 @@ class Employee extends ArrayObject
 $myArrayObject = new Employee();
 $myArrayObject->offsetSet('Name', 'Mazherul Islam');
 $myArrayObject->offsetSet('Email', 'mazherulislam6@gmail.com');
-$myArrayObject->offsetSet('gender', 'Male');
-$myArrayObject->offsetSet('phone', '01875936621');
+$myArrayObject->offsetSet('Gender', 'Male');
+$myArrayObject->offsetSet('Phone', '01875936621');
 $myArrayObject->displayAsTable();
