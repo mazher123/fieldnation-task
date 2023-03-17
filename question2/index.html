@@ -21,25 +21,6 @@
 </head>
 <body>
 	<div id="blue-square"></div>
-	<script>
-		var square = document.getElementById("blue-square");
-		var x = 0;
-		var y = 50;
-		var xSpeed = 10;
-		var ySpeed = 10;
-
-		setInterval(function() {
-			x += xSpeed;
-			y += ySpeed;
-			if (x + 100 >= window.innerWidth || x <= 0) {
-				xSpeed = -xSpeed;
-			}
-			if (y + 100 >= window.innerHeight || y <= 0) {
-				ySpeed = -ySpeed;
-			}
-			square.style.left = x + "px";
-			square.style.top = y + "px";
-		}, 1000/60); //60 frames per second
-	</script>
+    <script src="animate.js"></script>
 </body>
 </html>
